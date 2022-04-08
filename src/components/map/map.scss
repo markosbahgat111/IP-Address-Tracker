@@ -1,0 +1,17 @@
+.leaflet-container{
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  @media screen and (max-width:768px){
+    .leaflet-container{
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      top: 50vh;
+      z-index: -1;
+    }
+  }
